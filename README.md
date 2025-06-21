@@ -1,4 +1,3 @@
-# FUTURE_FS_02
 
 # 📦 FUTURE_FS_02 — Weather Forecast App
 
