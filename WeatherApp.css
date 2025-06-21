@@ -1,0 +1,14 @@
+.Weather {
+  position: relative;     /* container for layering */
+  overflow: hidden;       /* hide overflow for clean layout */
+  min-height: 100vh;      /* ensure full viewport height */
+}
+
+.bg-video {
+  position: fixed;        /* or absolute inside the container */
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;      /* cover entire viewport */
+  z-index: -1;            /* put behind all other content */
+}
